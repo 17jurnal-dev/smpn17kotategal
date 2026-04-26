@@ -24,8 +24,8 @@ import {
 
 // ================= CONFIG =================
 export const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || "https://YOUR_PROJECT.supabase.co",
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "YOUR_ANON_KEY"
+  process.env.NEXT_PUBLIC_SUPABASE_URL || "https://eivgfczwkejhwkeynpci.supabase.co",
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVpdmdmY3p3a2VqaHdrZXlucGNpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcwOTI5NzQsImV4cCI6MjA5MjY2ODk3NH0.pBsNuolSMGx0nCS54csHJ8NGXwQcHaqIB3soS3h6IQI"
 );
 
 // ================= HELPERS / HOOKS =================
