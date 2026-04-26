@@ -94,7 +94,7 @@ export default function App() {
       {page === "parent" && <ParentDashboard />}
 
       <footer className="bg-gray-100 text-center p-4 text-sm">
-        © 2026 SMPN 17 Tegal — Sistem Digital Sekolah
+        © sinpapay_p.TY 2026 SMPN 17 Tegal — Sistem Digital Sekolah
       </footer>
     </div>
   );
